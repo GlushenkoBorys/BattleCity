@@ -8,9 +8,16 @@ namespace BattleCity
 {
      abstract class Tank
     {
-        int body;
-        int tower;
-        int gun;
+        private int body;
+        public int Body { get; set; }
+
+        private int tower;
+        public int Tower { get; set; }
+
+        private int gun;
+        public int Gun { get; set; }
+
         int chassis;
+        public int Chassis { get; set; }
     }
 }
